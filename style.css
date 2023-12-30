@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 70px;
+    border-radius: 13px;
+}
+
+header {
+    text-align: center;
+    color: lime;
+    padding-top: 80px;
+}
+
+.logo {
+    width: 20%;
+}
+
+nav {
+    text-align: center;
+    margin: 3px 100px;
+    padding: 15px;
+    background-color: lime;
+}
+
+button {
+    padding: 1px;
+}
+
+.monopattino {
+    color: white;
+    padding: 5px;
+    margin: 2px 100px;
+}
+
+div h2 {
+    margin-top: 20px;
+}
+
+.via {
+    margin: 5px 0;
+}
+
+.via:before {
+   content: "\21A6";
+}
+
+.monopattino div div:last-child{
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.orange-bar {
+    background-color: orange;
+    width: 35%;
+}
+
+.green-bar {
+    background-color: rgb(22, 158, 22);
+    width: 60%;
+}
+
+.red-bar {
+    background-color: rgb(192, 24, 24);
+    width: 15%;
+}
